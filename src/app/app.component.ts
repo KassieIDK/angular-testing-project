@@ -8,11 +8,15 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-testing-project';
 
-  addTask(task: string) {
+  task: string []=[];
+  
 
+  addTask(task: string) {
+    
   }
 
   deleteTask(task: string) {
+  
   }
 
   getTasks(): string[] {
